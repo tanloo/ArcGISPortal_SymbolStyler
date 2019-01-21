@@ -13,13 +13,18 @@ function showSymbolEditDiv(self) {
         $('#lineImg').removeClass('hidden');
         $('#lineSelect').removeClass('hidden');
 
+        //将点击的图形显示到弹出层预图形中
+        $('#symbolPreview_line').html($(self).html());
         //重新加载设置线滑块的调节范围及初始值
-        $('#sliderVal_shape').text(1);
+        let symbolSize = originSVG.children(':first').attr('stroke-width');
+        symbolSize = Number(symbolSize);
+        $('#sliderVal_shape').text(symbolSize);
         var s = $('#slider_shape').slider({
             min: 0,
             max: 18,
-            value: 1
+            value: symbolSize
         });
+
     } else {
         $('#symbolPreview_line').addClass('hidden');
         $('#lineImg').addClass('hidden');
@@ -29,15 +34,23 @@ function showSymbolEditDiv(self) {
         $('#symbolPreview').removeClass('hidden');
         $('.shapeItem').removeClass('hidden');
 
-        $('#sliderVal_shape').text(8);
+        $('#symbolPreview').html($(self).html());
+        //重新加载设置线滑块的调节范围及初始值
+        let symbolSize = originSVG.children(':first').attr('r');
+        if (symbolSize === undefined) {
+            symbolSize = Number(Math.abs(originSVG.children(':first').attr('d').split(" ")[1])) * 2;
+        }
+        symbolSize = Number(symbolSize);
+        $('#sliderVal_shape').text(symbolSize);
         var s = $('#slider_shape').slider({
             min: 0,
             max: 120,
-            value: 8
+            value: symbolSize
         });
     }
     s.on("slide", sliderChange_shape);
-
+    $('#slider_outline').slider();
+    $("#slider_outline").on("slide", sliderChange_line);
 
     layer.open({
         type: 1,
@@ -51,13 +64,23 @@ function showSymbolEditDiv(self) {
         success: function (index, layero) {
             //弹出层打开读取当前符号颜色
             if ($(self).attr('id') === 'symbol') {
-                var originColor = originSVG.children(':first').attr('fill');
-                $('#symbolPreview > svg').children(':first').attr("fill", originColor);
+                let originColor = $('#symbolPreview > svg').children(':first').attr("fill");
                 $('#cp_fill').attr('data-color', originColor);
-            } else {
-                var originColor = originSVG.children(':first').attr('stroke');
-                $('#symbolPreview_line > svg').children(':first').attr("stroke", originColor);
+            } else if ($(self).attr('id') === 'symbol_line') {
+                let originColor = $('#symbolPreview_line > svg').children(':first').attr("stroke");
                 $('#cp_fill').attr('data-color', originColor);
+            }
+
+            //清空所有色带选中背景色
+            $('.linearGradientItem').css('background-color', '#FFFFFF');
+            //清空符号形状选择的背景色，并默认选中所属形状
+            $('.shapeItem').css('background-color', '#FFFFFF');
+            if ($('#symbolPreview > svg').children(':first').attr('r')) {
+                $('#circleShape').css('background-color', '#CEE7F8');
+            } else if ($('#symbolPreview > svg').children(':first').attr('d').split(" ")[2] === '0') {
+                $('#diamondShape').css('background-color', '#CEE7F8');
+            } else if ($('#symbolPreview > svg').children(':first').attr('d').split(" ")[2] !== '0') {
+                $('#rectShape').css('background-color', '#CEE7F8');
             }
 
         },
@@ -171,7 +194,7 @@ function showSymbolEditDiv(self) {
         $(this).css('background-color', '#CEE7F8');
     });
 
-
+    //初始化两个颜色选择器
     $(function () {
         $('#cp_fill').colorpicker({
             inline: true,
@@ -253,13 +276,13 @@ function showSymbolEditDiv(self) {
 
 }
 
+//解析字符串matrix(a,b,c,d,e,f)，以数组返回
 function getmatrix(a, b, c, d, e, f) {
-    //解析字符串matrix(a,b,c,d,e,f)，以数组返回
     return new Array(a, b, c, d, e, f);
 }
 
+//将数组还原为matrix字符串
 function setMatrix(a, b, c, d, e, f) {
-    //将数组还原为matrix字符串
     return "matrix(" + a + "," + b + "," + c + "," + d + "," + e + "," + f + ")";
 }
 
@@ -342,22 +365,22 @@ function sliderChange_shape(slideEvt) {
         //改变预图形中的线型
         switch ($('#lineSelect').val()) {
             //实线
-            case '0':
+            case 'solid':
                 break;
             //点线
-            case '1':
+            case 'dot':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', slideEvt.value + "," + (slideEvt.value * 3));
                 break;
             //虚线
-            case '2':
+            case 'dash':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', (slideEvt.value * 4) + "," + (slideEvt.value * 3));
                 break;
             //点划线
-            case '3':
+            case 'dash-dot':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', (slideEvt.value * 4) + "," + (slideEvt.value * 3) + "," + (slideEvt.value) + "," + (slideEvt.value * 3));
                 break;
             //双点划线
-            case '4':
+            case 'short-dash-dot-dot':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', (slideEvt.value * 8) + "," + (slideEvt.value * 3) + "," + (slideEvt.value) + "," + (slideEvt.value * 3) + "," + (slideEvt.value) + "," + (slideEvt.value * 3));
                 break;
         }
@@ -391,11 +414,6 @@ function sliderChange_line(slideEvt) {
 }
 
 $(document).ready(function () {
-    $('#slider_shape').slider();
-    $("#slider_shape").on("slide", sliderChange_shape);
-
-    $('#slider_outline').slider();
-    $("#slider_outline").on("slide", sliderChange_line);
 
     //请求色带信息
     var xmlhttp = new window.XMLHttpRequest();
@@ -416,21 +434,22 @@ $(document).ready(function () {
     //更改线型显示
     $('#lineSelect').change(function () {
         var lineType = $(this).val();
-        $('#lineImg').css('background-position', '0px -' + (lineType * 15) + 'px');
+        $('#lineImg').css('background-position', '0px -' + ($('#lineSelect').get(0).selectedIndex * 15) + 'px');
+
         var lineWidth = $('#sliderVal_shape').text();
         switch (lineType) {
-            case '0':
+            case 'solid':
                 break;
-            case '1':
+            case 'dot':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', lineWidth + "," + (lineWidth * 3));
                 break;
-            case '2':
+            case 'dash':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', (lineWidth * 4) + "," + (lineWidth * 3));
                 break;
-            case '3':
+            case 'dash-dot':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', (lineWidth * 4) + "," + (lineWidth * 3) + "," + (lineWidth) + "," + (lineWidth * 3));
                 break;
-            case '4':
+            case 'short-dash-dot-dot':
                 $('#symbolPreview_line > svg > path').attr('stroke-dasharray', (lineWidth * 8) + "," + (lineWidth * 3) + "," + (lineWidth) + "," + (lineWidth * 3) + "," + (lineWidth) + "," + (lineWidth * 3));
                 break;
         }
