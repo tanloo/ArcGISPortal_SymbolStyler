@@ -1,0 +1,310 @@
+
+<svgs>
+<svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_1" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(237, 81, 81)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(237, 81, 81)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(20, 158, 206)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(20, 158, 206)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(167, 198, 54)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(167, 198, 54)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(158, 85, 156)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(158, 85, 156)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(252, 146, 31)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(252, 146, 31)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(255, 222, 62)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(255, 222, 62)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(247, 137, 216)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(247, 137, 216)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(183, 129, 74)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(183, 129, 74)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(60, 175, 153)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(60, 175, 153)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(107, 107, 214)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(107, 107, 214)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(181, 71, 121)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(181, 71, 121)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(127, 127, 127)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(127, 127, 127)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_1)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+                            </svg>
+<svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_2" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(253, 127, 111)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(253, 127, 111)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(126, 176, 213)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(126, 176, 213)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(178, 224, 97)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(178, 224, 97)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(189, 126, 190)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(189, 126, 190)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(255, 181, 90)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(255, 181, 90)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(255, 238, 101)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(255, 238, 101)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(190, 185, 219)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(190, 185, 219)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(253, 204, 229)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(253, 204, 229)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(139, 211, 199)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(139, 211, 199)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(203, 236, 196)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(203, 236, 196)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(255, 255, 175)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(255, 255, 175)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(217, 217, 217)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(217, 217, 217)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_2)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+ </svg>
+ <svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_3" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(16, 36, 50)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(16, 36, 50)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(20, 77, 89)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(20, 77, 89)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(255, 199, 48)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(255, 199, 48)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(237, 147, 16)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(237, 147, 16)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(166, 79, 27)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(166, 79, 27)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(102, 21, 16)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(102, 21, 16)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(217, 53, 26)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(217, 53, 26)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(179, 21, 21)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(179, 21, 21)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(74, 9, 50)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(74, 9, 50)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(140, 33, 63)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(140, 33, 63)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(24, 56, 46)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(24, 56, 46)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(44, 105, 84)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(44, 105, 84)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_3)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+                            </svg>
+                              <svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_4" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(191, 151, 39)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(191, 151, 39)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(96, 113, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(96, 113, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(0, 115, 76)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(0, 115, 76)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(112, 68, 137)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(112, 68, 137)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(1, 172, 202)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(1, 172, 202)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(2, 78, 118)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(2, 78, 118)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(240, 145, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(240, 145, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(234, 49, 31)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(234, 49, 31)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(198, 0, 75)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(198, 0, 75)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(117, 112, 179)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(117, 112, 179)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(102, 102, 102)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(102, 102, 102)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(51, 51, 51)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(51, 51, 51)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_4)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+                            </svg>
+                             <svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_5" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(255, 251, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(255, 251, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(245, 203, 17)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(245, 203, 17)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(159, 212, 12)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(159, 212, 12)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(70, 227, 156)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(70, 227, 156)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(50, 184, 166)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(50, 184, 166)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(127, 242, 250)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(127, 242, 250)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(173, 0, 242)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(173, 0, 242)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(196, 97, 235)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(196, 97, 235)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(235, 114, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(235, 114, 0)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(232, 167, 132)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(232, 167, 132)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(191, 46, 46)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(191, 46, 46)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(108, 112, 0)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(108, 112, 0)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_5)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+
+                            </svg>
+                             <svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_6" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(25, 25, 33)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(25, 25, 33)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(17, 73, 92)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(17, 73, 92)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(120, 177, 194)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(120, 177, 194)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(69, 79, 75)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(69, 79, 75)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(143, 143, 130)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(143, 143, 130)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(155, 224, 192)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(155, 224, 192)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(135, 176, 81)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(135, 176, 81)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(247, 236, 136)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(247, 236, 136)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(235, 220, 193)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(235, 220, 193)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(219, 182, 88)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(219, 182, 88)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(196, 53, 65)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(196, 53, 65)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(117, 53, 30)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(117, 53, 30)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_6)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+                            </svg>
+                              <svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_7" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(252, 225, 56)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(252, 225, 56)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(255, 247, 153)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(255, 247, 153)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(252, 210, 126)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(252, 210, 126)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(241, 152, 60)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(241, 152, 60)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(165, 83, 183)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(165, 83, 183)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(177, 169, 208)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(177, 169, 208)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(110, 207, 252)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(110, 207, 252)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(76, 129, 205)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(76, 129, 205)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(252, 111, 132)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(252, 111, 132)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(252, 62, 90)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(252, 62, 90)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(106, 246, 137)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(106, 246, 137)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(72, 136, 92)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(72, 136, 92)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_7)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+                            </svg>
+                            <svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_8" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(51, 36, 36)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(51, 36, 36)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(117, 21, 85)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(117, 21, 85)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(212, 112, 19)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(212, 112, 19)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(214, 137, 137)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(214, 137, 137)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(33, 17, 115)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(33, 17, 115)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(130, 170, 214)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(130, 170, 214)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(123, 250, 235)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(123, 250, 235)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(110, 201, 168)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(110, 201, 168)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(107, 100, 8)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(107, 100, 8)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(234, 218, 64)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(234, 218, 64)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(204, 197, 74)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(204, 197, 74)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(31, 194, 53)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(31, 194, 53)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_8)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+                            </svg>
+                            <svg overflow="hidden" width="20" height="70" style="touch-action: none;">
+                                <defs>
+                                    <linearGradient id="linearGradient_9" gradientUnits="userSpaceOnUse" x1="0.00000000"
+                                        y1="0.00000000" x2="0.00000000" y2="70.00000000">
+                                        <stop offset="0.00000000" stop-color="rgb(255, 253, 153)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(255, 253, 153)" stop-opacity="1"></stop>
+                                        <stop offset="0.08333333" stop-color="rgb(245, 230, 164)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(245, 230, 164)" stop-opacity="1"></stop>
+                                        <stop offset="0.16666667" stop-color="rgb(193, 212, 140)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(193, 212, 140)" stop-opacity="1"></stop>
+                                        <stop offset="0.25000000" stop-color="rgb(184, 227, 208)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(184, 227, 208)" stop-opacity="1"></stop>
+                                        <stop offset="0.33333333" stop-color="rgb(160, 184, 181)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(160, 184, 181)" stop-opacity="1"></stop>
+                                        <stop offset="0.41666667" stop-color="rgb(203, 247, 250)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(203, 247, 250)" stop-opacity="1"></stop>
+                                        <stop offset="0.50000000" stop-color="rgb(215, 145, 242)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(215, 145, 242)" stop-opacity="1"></stop>
+                                        <stop offset="0.58333333" stop-color="rgb(223, 193, 235)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(223, 193, 235)" stop-opacity="1"></stop>
+                                        <stop offset="0.66666667" stop-color="rgb(242, 185, 131)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(242, 185, 131)" stop-opacity="1"></stop>
+                                        <stop offset="0.75000000" stop-color="rgb(232, 196, 178)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(232, 196, 178)" stop-opacity="1"></stop>
+                                        <stop offset="0.83333333" stop-color="rgb(191, 142, 142)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(191, 142, 142)" stop-opacity="1"></stop>
+                                        <stop offset="0.91666667" stop-color="rgb(148, 153, 92)" stop-opacity="1"></stop>
+                                        <stop offset="1.00000000" stop-color="rgb(148, 153, 92)" stop-opacity="1"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect fill="url(#linearGradient_9)" stroke="none" stroke-opacity="0" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" x="0" y="0"
+                                    width="20" height="70" ry="0" rx="0" fill-rule="evenodd"></rect>
+                            </svg>
+                            </svgs>
