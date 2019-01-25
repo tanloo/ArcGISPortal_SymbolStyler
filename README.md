@@ -5,3 +5,10 @@
 
 
 ## ***点和线符号选择器。***
+
+点：
+![image](https://github.com/tanloo/ArcGISPortal_SymbolStyler/blob/master/image/point.png)
+
+
+线：
+![image](https://github.com/tanloo/ArcGISPortal_SymbolStyler/blob/master/image/line.png)
